@@ -7,16 +7,16 @@ export const Navbar = () => {
             <Toolbar>
                 {/* Logo a la izquierda */}
                 <IconButton edge="start" color="inherit" aria-label="menu">
-                    <img src={logo} alt="Logo" style={{ width: 50, marginRight: 10 }} />
+                    <img src={logo} alt="Logo" style={{ width: 130, borderRadius: 100 }} />
                 </IconButton>
 
                 {/* Nombre del blog en el centro */}
-                <Typography variant="h3" style={{ flexGrow: 1, textAlign: 'center' }}>
+                <Typography variant="h2" style={{ flexGrow: 1, textAlign: 'center' }}>
                     EM News
                 </Typography>
 
                 {/* Botón "Suscríbete" a la derecha */}
-                <Button color="inherit">Suscríbete</Button>
+                <Button variant="outlined" color="inherit">Suscríbete</Button>
             </Toolbar>
         </AppBar>
     );
